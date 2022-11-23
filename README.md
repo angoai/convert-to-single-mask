@@ -1,7 +1,7 @@
 # convert-to-single-mask
-Generate masks from Ango export files
+Generate single masks from Ango export files.
 
-For polygon tool: 1_polygon_to_single_mask.py
+__For the polygon tool:__ [1_polygon_to_single_mask.py](1_polygon_to_single_mask.py)
 
 ```
 if __name__ == "__main__":
@@ -13,7 +13,7 @@ if __name__ == "__main__":
     polygon_to_single_mask(api_key, project_id, json_path, output_folder, class_mapping_type)
 ```
 
-For segmentation tool: 2_segmentation_to_single_mask.py
+__For the segmentation tool:__ 2_segmentation_to_single_mask.py
 
 ```
 if __name__ == "__main__":
