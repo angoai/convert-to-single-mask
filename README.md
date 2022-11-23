@@ -24,3 +24,9 @@ if __name__ == "__main__":
     class_mapping_type = 'multi_channel_qualitative'
     segmentation_to_single_mask(api_key, project_id, json_path, output_folder, class_mapping_type)
 ```
+
+
+___class_mapping_type___ options:
+- __single_channel_sequential:__  ```{'class_1': 1, 'class_2': 2, 'class_3': 3, ...}```
+- __single_channel_diverging:__ ```{'class_1': 255, 'class_2': 128, 'class_3': 192, 'class_4': 64 ...}```
+- __multi_channel_qualitative:__ ```{'class_1': (R1, G1, B1), 'class_2': (R2, G2, B2), 'class_3': (R3, G3, B3), ...}```
